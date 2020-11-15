@@ -32,9 +32,13 @@ result ("mohommed faizan" , 85)
 // function assignment2
   
 function temp (celsius){
-    console.log("Temp is " + (celsius*9/5)+32);
+    let x = celsius*9/5+32
+    console.log("Temp is " + x);
 }
 temp(28)
 temp(34)
 temp(10)
 temp(65)
+
+// looping
+
