@@ -41,4 +41,12 @@ temp(10)
 temp(65)
 
 // looping
+//  for loop 
+
+ for(x=0; x<6; x++ ) {
+    console.log("my name is ameen");
+ }
+ for(y=1; y<=5; y++){
+     console.log("hello friends" ,y);
+ }
 
