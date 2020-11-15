@@ -49,4 +49,52 @@ temp(65)
  for(y=1; y<=5; y++){
      console.log("hello friends" ,y);
  }
+//  for(r=6; r>0; r--) {
+//      console.log("hello" ,r);
+//  }
 
+ var  m = ["ameen" ,"ulla" , "rahim"]
+  for(n=0; n<m.length; n++){
+      console.log(m[n]);
+  }
+  var  n = ["ameen" ,"ulla" , "rahim"]
+   for(n of n){
+       console.log(n);
+   }
+// while loop
+   
+//  let r=0
+//  while(r<8){
+//      console.log(r);
+//      r++
+//  }
+
+//  let a=0
+//  while(a<8){
+//      a++
+//      if(a==5)continue;
+//      console.log(a)
+//  }
+
+//  do-while
+
+ let t=0
+   do{
+       t++
+       console.log(t);
+   }while(t<8)
+
+   let w=0
+   do{
+       w++
+       if(w==5) break;
+       console.log(w);
+   }while(w<10)
+
+//    high order Array
+
+let  name = ["nan" , "ran", "tan", "fan" ];
+ name.forEsach(name=>{
+       console.log(name);
+ });
+   
