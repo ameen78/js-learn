@@ -63,18 +63,18 @@ temp(65)
    }
 // while loop
    
-//  let r=0
-//  while(r<8){
-//      console.log(r);
-//      r++
-//  }
+ let r=0
+ while(r<8){
+     console.log(r);
+     r++
+ }
 
-//  let a=0
-//  while(a<8){
-//      a++
-//      if(a==5)continue;
-//      console.log(a)
-//  }
+ let a=0
+ while(a<8){
+     a++
+     if(a==5)continue;
+     console.log(a)
+ }
 
 //  do-while
 
@@ -93,8 +93,108 @@ temp(65)
 
 //    high order Array
 
-let  name = ["nan" , "ran", "tan", "fan" ];
- name.forEsach(name=>{
-       console.log(name);
- });
+// let  name = ["nan" , "ran", "tan", "fan" ];
+//  name.forEsach(name=>{
+//        console.log(name);
+//  });
+
+
+    // 16 nov
+//  function using return
+
+  function ram (x ,y){
+      let f =x*y
+       return f;
+  }
+   let h = ram(10 ,3)
+   console.log(h);
+
+   function sam (a=6 ,r=9){
+    let q= a/r
+    return q
+   }
+   let s=sam()
+   console.log(s);
+
+   function ameen (w , q){
+       let see = w*q+q
+       return see;
+   }
+   let lee = ameen(10 ,5)
+    
+    function  rahim (r=4 ,c=8){
+        let fal = r+r*c/r
+        return fal;
+    }
+    let ms = rahim()
+     console.log(lee);
+
+     let e = lee*ms/ms
+    console.log(e);
+         
+    let sem = lee/ms+s
+    console.log(r);
+ 
+    // if statement
+      let xl=60
+
+    if(xl<35){
+        console.log("fail");
+    }else if(xl>=35 && xl<48){
+       console.log("pass");
+    }else if (xl>=49 && xl<60){
+        console.log("secound class");
+    } else if (xl>=60 && xl<80){
+        console.log("first class");
+    }else {
+        console.log("distintion");
+    }
+      
+
+    let umer = 45
+
+    if(umer<12){
+        console.log("child");
+    }else if(umer>=12 && umer<20){
+        console.log("teenager");
+    }else if (umer>=20 && umer<40){
+        console.log("Adult");
+    }else{
+        console.log("old man");
+    }
+
+    // switch statment
+       let virat = 40
+      switch (true){
+        case virat<20:
+        console.log("played very bad");
+        break;
+        case  virat>=20 && virat<40:
+        console.log("not bad");  
+         break; 
+        case virat>=40 && virat<80:
+        console.log("good");  
+        break;
+        case virat >80:
+        default:
+        console.log("excelent");
+        break;
+      }
+
+    //   terenery oprator
+
+     height=3
+    height>=7?console.log("khali"):console.log("cena");
+
+    // truely falsey value
+      if(".")
+      console.log("is true");
+      
+    //   schort circut
+      reem=true
+     reem && console.log("true");  
+
+    seem=false
+    seem && console.log("false");
    
+
